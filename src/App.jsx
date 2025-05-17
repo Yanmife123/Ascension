@@ -1,9 +1,9 @@
-import { Navbar, Hero, Companies, Works } from "./component";
+import { Navbar, Hero, Companies, Works, Benefit } from "./component";
 
 const App = () => {
   return (
     <div className=" bg-black overflow-hidden ">
-      <div className="purple___gradinet " />
+      <div className="purple___gradient " />
       <header className="flex__center  paddingX fixed top-0 left-0 w-full py-4  lg:border-b-0 border-b-1  border-b-blurWhite lg:bg-transparent bg-blurBlack backdrop-blur-[10px] z-5 ">
         <Navbar />
       </header>
@@ -13,6 +13,7 @@ const App = () => {
           <Hero />
           <Companies />
           <Works />
+          <Benefit />
         </div>
       </div>
     </div>

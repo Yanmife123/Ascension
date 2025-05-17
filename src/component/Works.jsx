@@ -2,13 +2,20 @@ import Title from "./Title";
 import data from "../constant/data";
 const Works = () => {
   return (
-    <section className="paddingY flex flex-col items-center gap-[78px]">
+    <section
+      className="paddingY relative mt-5 flex flex-col items-center gap-[78px]"
+      id="how_it_work"
+    >
+      <div className="section_gradient_container">
+        <div className="ellpise2" />
+        <div className="ellpise1" />
+      </div>
       <div className="flex flex-col gap-4 items-center lg:w-[630px] md:w-[80%] w-full">
         <Title text={"How It Works"} />
-        <h2 className="heading">
+        <h2 className="heading mix-blend-difference">
           Everything You Need, Packed into One Dashboard
         </h2>
-        <p className="paragraph">
+        <p className="paragraph mix-blend-difference">
           From automating tasks to offering real-time insights, Ascension takes
           the complexity out of running your business. Here’s how it works:
         </p>

@@ -74,7 +74,7 @@
   }
 }
 
-.purple___gradinet {
+.purple___gradient {
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgb(83, 15, 255) 0%,
@@ -93,6 +93,43 @@
   transform: translateX(-50%);
   width: 100%;
   z-index: 0;
+}
+
+.section_gradient_container {
+  flex: 0 0 auto;
+  height: 692px;
+  left: calc(50% - 356px);
+  opacity: 0.2;
+  overflow: visible;
+  position: absolute;
+  top: calc(54.6012% - 346px);
+  width: 712px;
+  z-index: 1;
+}
+
+.section_gradient_container .ellpise2 {
+  aspect-ratio: 1 / 1;
+  background-color: rgb(169, 82, 255);
+  border-radius: 100%;
+  filter: blur(87px);
+  flex: 0 0 auto;
+  height: 506px;
+  left: 206px;
+  position: absolute;
+  top: 186px;
+  width: 506px;
+}
+.section_gradient_container .ellpise1 {
+  aspect-ratio: 1 / 1;
+  background-color: rgb(83, 15, 255);
+  border-radius: 100%;
+  filter: blur(87px);
+  flex: 0 0 auto;
+  height: 506px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 506px;
 }
 
 .try {
@@ -139,7 +176,7 @@
     @apply xl:max-w-[1280px] w-full;
   }
   .paddingY {
-    @apply sm:py-16 py-8;
+    @apply sm:py-20 py-11;
   }
 }
 
