@@ -7,9 +7,9 @@ const Navbar = () => {
   const [menuClicked, setMenuClicked] = useState(false);
 
   return (
-    <div className="w-full">
+    <div className="w-full boxWidth ">
       <nav
-        className={`flex items-center justify-between text-white w-full md:h-[60px] h-[50px] boxWidth `}
+        className={`flex items-center justify-between text-white w-full md:h-[60px] h-[50px] `}
       >
         <img src={Logo} alt="Logo" className="z-2" />
         <ul className="list-none  gap-6  lg:flex hidden">

@@ -7,6 +7,7 @@ import Benefit1 from "./Benefit_1.png";
 import Benefit2 from "./Benefit_2.png";
 import Benefit3 from "./Benefit_3.png";
 import Benefit4 from "./Benefit_4.png";
+import Benefit5 from "./Benefit_5.png";
 import Bell from "./bell.svg";
 import Arrow_clockwise from "./arrows-clockwise.svg";
 import Chart_bar from "./chart-bar.svg";
@@ -24,6 +25,7 @@ import Logo_7 from "./Logo_7.png";
 import Logo_8 from "./Logo_8.png";
 import Logo_9 from "./Logo_9.png";
 import Logo_0 from "./Logo_0.png";
+import Check from "./check.svg";
 
 export {
   Logo,
@@ -35,6 +37,7 @@ export {
   Benefit2,
   Benefit3,
   Benefit4,
+  Benefit5,
   Bell,
   Arrow_clockwise,
   Chart_bar,
@@ -52,4 +55,5 @@ export {
   Logo_7,
   Logo_8,
   Logo_9,
+  Check
 };

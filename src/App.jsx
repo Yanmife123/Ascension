@@ -1,4 +1,4 @@
-import { Navbar, Hero, Companies, Works, Benefit } from "./component";
+import { Navbar, Hero, Companies, Works, Benefit,Benefit_secound } from "./component";
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
           <Companies />
           <Works />
           <Benefit />
+          <Benefit_secound />
         </div>
       </div>
     </div>

@@ -108,8 +108,25 @@ const How_its_works = [
       "Use data insights to fine-tune strategies, spot new opportunities, and make decisions that drive your business forward.",
   },
 ];
+
+const Benefit_text = [
+  {
+    id: 1,
+    text: "Automated Campaigns for Consistent Engagement",
+  },
+  {
+    id: 2,
+    text: "Personalized Messaging to Strengthen Customer Loyalty",
+  },
+  {
+    id: 3,
+    text: "Conversion Tracking for Clear Growth Insights",
+  },
+];
+
 export default {
   Navbar_Data,
   Company_Logos,
   How_its_works,
+  Benefit_text,
 };

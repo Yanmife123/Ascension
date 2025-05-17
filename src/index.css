@@ -32,6 +32,7 @@
   --color-grey: #c2c2c2;
   --color-blurBlack: rgba(0, 0, 0, 0.08);
   --color-blurWhite: rgba(255, 255, 255, 0.1);
+  --color-blurWhiteSecond: rgba(255, 255, 255, 0.04);
 }
 
 .navPhone {

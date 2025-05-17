@@ -1,5 +1,6 @@
 import Title from "./Title";
 import { Benefit1, Benefit2, Benefit3, Benefit4 } from "../assets";
+import Benefit_secound from "./Benefit2";
 
 const Benefit = () => {
   return (
@@ -98,6 +99,7 @@ const Benefit = () => {
           </div>
         </div>
       </div>
+     
     </section>
   );
 };
