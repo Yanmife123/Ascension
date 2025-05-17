@@ -1,4 +1,14 @@
-import { Navbar, Hero, Companies, Works, Benefit,Benefit_secound } from "./component";
+import {
+  Navbar,
+  Hero,
+  Companies,
+  Works,
+  Benefit,
+  Benefit_secound,
+  FreeTrail,
+  Feature,
+  Pricing,
+} from "./component";
 
 const App = () => {
   return (
@@ -15,6 +25,9 @@ const App = () => {
           <Works />
           <Benefit />
           <Benefit_secound />
+          <FreeTrail />
+          <Feature />
+          <Pricing />
         </div>
       </div>
     </div>

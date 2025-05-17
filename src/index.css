@@ -33,6 +33,8 @@
   --color-blurBlack: rgba(0, 0, 0, 0.08);
   --color-blurWhite: rgba(255, 255, 255, 0.1);
   --color-blurWhiteSecond: rgba(255, 255, 255, 0.04);
+
+  --color-blurWhiteThird: rgba(255, 255, 255, 0.02);
 }
 
 .navPhone {
@@ -164,6 +166,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+}
+
+.mask__gradient {
+  mask: radial-gradient(
+    50% 57% at 50% 50%,
+    rgb(0, 0, 0) 43.2432%,
+    rgba(0, 0, 0, 0.5) 62.1622%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.box__shadow__purple {
+  box-shadow: rgba(148, 88, 255, 0.2) 0px 0px 250px 13px;
 }
 
 @layer utilities {

@@ -65,6 +65,9 @@ const Navbar = () => {
               <a
                 href={`#${link.link}`}
                 className=" font-satoshi nav_link  text-[18px] text-white"
+                onClick={() => {
+                  setMenuClicked(false);
+                }}
               >
                 {link.name}
               </a>

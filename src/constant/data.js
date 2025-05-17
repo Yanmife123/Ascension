@@ -1,4 +1,8 @@
 import {
+  Arrow_clockwise,
+  Bell,
+  Chart_bar,
+  Chart_lne,
   How_it_works1,
   How_it_works2,
   How_it_works3,
@@ -12,6 +16,8 @@ import {
   Logo_7,
   Logo_8,
   Logo_9,
+  magnifying,
+  Square_four,
 } from "../assets";
 
 const Navbar_Data = [
@@ -124,9 +130,54 @@ const Benefit_text = [
   },
 ];
 
+const Feature_Data = [
+  {
+    id: 1,
+    icon: Chart_bar,
+    heading: "Real-Time Analytics",
+    paragraph:
+      "Monitor your store’s performance instantly with clear data on visitors, sales, and trends.",
+  },
+  {
+    id: 2,
+    icon: Chart_lne,
+    heading: "Multi-Channel Sales Sync",
+    paragraph: "Easily sync your products and sales across multiple channels.",
+  },
+  {
+    id: 3,
+    icon: Arrow_clockwise,
+    heading: "Task Automation",
+    paragraph:
+      "Automate inventory updates and order fulfillment to save time and reduce errors",
+  },
+  {
+    id: 4,
+    icon: Bell,
+    heading: "Custom Reports",
+    paragraph:
+      "Create reports tailored to your needs, covering sales, customer behavior, and more.",
+  },
+  {
+    id: 5,
+    icon: Square_four,
+    heading: "Stock & Order Tracking",
+    paragraph:
+      "Track stock and orders in one place for accurate inventory and efficient shipping.",
+  },
+  {
+    id: 6,
+    icon: magnifying,
+    heading: "Real-Time Analytics",
+    paragraph:
+      "Gain insights into customer behavior to personalize marketing and boost sales.",
+  },
+];
+
 export default {
   Navbar_Data,
   Company_Logos,
   How_its_works,
   Benefit_text,
+  Feature_Data,
 };
