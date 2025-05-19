@@ -1,6 +1,5 @@
-import Title from "./Title";
 import { Benefit1, Benefit2, Benefit3, Benefit4 } from "../assets";
-import Benefit_secound from "./Benefit2";
+import Head from "./Head";
 
 const Benefit = () => {
   return (
@@ -12,14 +11,14 @@ const Benefit = () => {
         <div className="ellpise2" />
         <div className="ellpise1" />
       </div>
-      <div className="flex flex-col gap-4 items-center lg:w-[630px] md:w-[80%] w-full z-2">
-        <Title text={"Benefits"} />
-        <h2 className="heading">Unlock Your Store's Potential</h2>
-        <p className="paragraph">
-          From automating tasks to offering real-time insights, Ascension takes
-          the complexity out of running your business. Here’s how it works:
-        </p>
-      </div>
+
+      <Head
+        title={"Benefits"}
+        heading={"Unlock Your Store's Potential"}
+        paragraph={
+          "From automating tasks to offering real-time insights, Ascension takes the complexity out of running your business. Here’s how it works:"
+        }
+      />
       <div className="flex flex-col gap-4 items-center z-2">
         <div className="flex lg:flex-row flex-col gap-4 w-[80%]">
           <div className="flex py-5 px-3 bg-blurWhite flex-col gap-5 rounded-[5px]">
@@ -99,7 +98,6 @@ const Benefit = () => {
           </div>
         </div>
       </div>
-     
     </section>
   );
 };

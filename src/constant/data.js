@@ -174,10 +174,51 @@ const Feature_Data = [
   },
 ];
 
+const Payment_Plans = [
+  {
+    id: 1,
+    monthly: "$34.99",
+    yearly: "$27.99",
+    heading: "Basic",
+    text: "For businesses just getting started.",
+    benefit: [
+      "Streamlined project management",
+      "Basic marketing tools",
+      "Robust analytics and reporting",
+    ],
+  },
+  {
+    id: 2,
+    monthly: "$59.99",
+    yearly: "$47.99",
+    heading: "Pro",
+    text: "For small business building momentum.",
+    benefit: [
+      "All features of Basic Plan",
+      "Multi-channel sales integration",
+      "Customizable email campaigns",
+      "A/B testing for marketing strategies",
+    ],
+  },
+  {
+    id: 3,
+    monthly: "$99.99",
+    yearly: "$27.99",
+    heading: "Enterprise",
+    text: "For fast-growing businesses.",
+    benefit: [
+      "All features of Pro Plan",
+      "Custom integrations and solutions",
+      "Priority customer support and training",
+    ],
+  },
+];
+
 export default {
   Navbar_Data,
   Company_Logos,
   How_its_works,
   Benefit_text,
   Feature_Data,
+  Payment_Plans,
 };

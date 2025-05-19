@@ -7,6 +7,7 @@ import Benefit_secound from "./Benefit2";
 import FreeTrail from "./FreeTrail";
 import Feature from "./Feature";
 import Pricing from "./Pricing";
+import Testomonail from "./Testomonail";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   FreeTrail,
   Feature,
   Pricing,
+  Testomonail
 };

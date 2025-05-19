@@ -28,13 +28,14 @@
   --font-satoshi: satoshi;
   --font-sans: "Instrument Sans", sans-serif;
   --color-white: #ffffff;
-  --color-blakc: #000000;
+  --color-black: #000000;
   --color-grey: #c2c2c2;
   --color-blurBlack: rgba(0, 0, 0, 0.08);
   --color-blurWhite: rgba(255, 255, 255, 0.1);
   --color-blurWhiteSecond: rgba(255, 255, 255, 0.04);
 
   --color-blurWhiteThird: rgba(255, 255, 255, 0.02);
+  --color-blurWhiteFourth: rgba(255, 255, 255, 0.2);
 }
 
 .navPhone {
@@ -75,6 +76,10 @@
     top: 70px;
     opacity: 1;
   }
+}
+
+.plans_click_transition {
+  transition: left 0.5s ease-in-out;
 }
 
 .purple___gradient {

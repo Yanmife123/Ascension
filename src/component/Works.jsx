@@ -1,5 +1,6 @@
-import Title from "./Title";
+import Head from "./Head";
 import data from "../constant/data";
+
 const Works = () => {
   return (
     <section
@@ -10,16 +11,14 @@ const Works = () => {
         <div className="ellpise2" />
         <div className="ellpise1" />
       </div>
-      <div className="flex flex-col gap-4 items-center lg:w-[630px] md:w-[80%] w-full">
-        <Title text={"How It Works"} />
-        <h2 className="heading mix-blend-difference">
-          Everything You Need, Packed into One Dashboard
-        </h2>
-        <p className="paragraph mix-blend-difference">
-          From automating tasks to offering real-time insights, Ascension takes
-          the complexity out of running your business. Here’s how it works:
-        </p>
-      </div>
+
+      <Head
+        title={"How It Works"}
+        heading={"Everything You Need, Packed into One Dashboard"}
+        paragraph={
+          " From automating tasks to offering real-time insights, Ascension takes the complexity out of running your business. Here’s how it works:"
+        }
+      />
       <div className="flex flex-wrap justify-center gap-3  ">
         {data.How_its_works.map((work) => (
           <div

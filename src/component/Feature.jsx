@@ -1,6 +1,6 @@
 import data from "../constant/data";
-import Title from "./Title";
 import { Background_Gradient, Background_Gradient2 } from "../assets";
+import Head from "./Head";
 
 const Feature = () => {
   return (
@@ -8,15 +8,13 @@ const Feature = () => {
       className="paddingY mt-5 flex flex-col items-center gap-[78px]  relative"
       id="features"
     >
-      <div className="flex flex-col gap-4 items-center lg:w-[630px] md:w-[80%] w-full z-2">
-        <Title text={"Features"} />
-        <h2 className="heading">Explore Ascension's Key Features</h2>
-        <p className="paragraph">
-          Our tool provides real-time analytics, inventory management, task
-          automation, and more—all designed to simplify your workflow and
-          maximize efficiency.
-        </p>
-      </div>
+      <Head
+        title={"Features"}
+        heading={"Explore Ascension's Key Features"}
+        paragraph={
+          "Our tool provides real-time analytics, inventory management, taskautomation, and more all designed to simplify your workflow and maximize efficiency.."
+        }
+      />
       <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[19px] relative">
           {data.Feature_Data.map((feature) => (

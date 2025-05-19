@@ -8,6 +8,7 @@ import {
   FreeTrail,
   Feature,
   Pricing,
+  Testomonail,
 } from "./component";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
           <FreeTrail />
           <Feature />
           <Pricing />
+          <Testomonail />
         </div>
       </div>
     </div>
