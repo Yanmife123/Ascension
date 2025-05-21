@@ -34,7 +34,7 @@ const Testomonial_componenet = ({ text, img, name, profession }) => {
 const Testomonail = () => {
   return (
     <section
-      className="paddingY mt-5 flex flex-col items-center gap-[78px]  relative"
+      className="paddingY mt-5 flex flex-col items-center gap-[78px] bg-black relative"
       id="testomonials"
     >
       <Head
