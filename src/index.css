@@ -36,6 +36,8 @@
 
   --color-blurWhiteThird: rgba(255, 255, 255, 0.02);
   --color-blurWhiteFourth: rgba(255, 255, 255, 0.2);
+
+  --color-purple_background: rgba(83, 15, 255, 0.4);
 }
 
 .navPhone {
@@ -51,6 +53,13 @@
   white-space: nowrap;
 }
 
+.question_icon {
+  transform: rotate(0);
+  transition: transform 0.3s ease-in-out;
+}
+.active_question_icon {
+  transform: rotate(90deg);
+}
 @keyframes Scroll__Left {
   0% {
     transform: translateX(+100%);

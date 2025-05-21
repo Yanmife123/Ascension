@@ -8,6 +8,9 @@ import FreeTrail from "./FreeTrail";
 import Feature from "./Feature";
 import Pricing from "./Pricing";
 import Testomonail from "./Testomonail";
+import Faq from "./FAQ";
+import Final from "./final";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -19,5 +22,8 @@ export {
   FreeTrail,
   Feature,
   Pricing,
-  Testomonail
+  Testomonail,
+  Faq,
+  Final,
+  Footer
 };

@@ -27,7 +27,6 @@ const Benefit_secound = () => {
               <img
                 src={Background_Gradient}
                 alt=""
-                srcset=""
                 className="h-full w-full mix-blend-darken"
               />
             </div>
@@ -36,7 +35,7 @@ const Benefit_secound = () => {
             <div className="absolute left-0 top-0 h-full w-full bg-blurWhite z-2 rounded-[5px]"></div>
             <div className="absolute top-0 left-0 h-full w-full transparent_gradient z-3"></div>
             <div className="h-[88%] z-[3]">
-              <img src={Benefit5} alt="" srcset="" className="h-[100%]" />
+              <img src={Benefit5} alt="" className="h-[100%]" />
             </div>
           </div>
         </div>
@@ -57,7 +56,7 @@ const Benefit_secound = () => {
                     key={benefit.id}
                     className="bg-blurWhiteSecond border-1 border-blurWhiteSecond py-1 px-4 pl-3 flex gap-3 items-center rounded-[12px]  md:max-w-[400px] w-full"
                   >
-                    <img src={Check} alt="" srcset="" className="h-[16px]" />
+                    <img src={Check} alt="" className="h-[16px]" />
                     <div className="text-white text-[14px] font-sans ">
                       {benefit.text}
                     </div>
@@ -71,7 +70,6 @@ const Benefit_secound = () => {
               <img
                 src={Background_Gradient}
                 alt=""
-                srcset=""
                 className="h-full w-full mix-blend-darken"
               />
             </div>
@@ -80,7 +78,7 @@ const Benefit_secound = () => {
             <div className="absolute left-0 top-0 h-full w-full bg-blurWhite z-2 rounded-[5px]"></div>
             <div className="absolute top-0 left-0 h-full w-full transparent_gradient z-3 "></div>
             <div className="h-[88%] z-[4] relative">
-              <img src={Benefit4} alt="" srcset="" className="h-[100%]" />
+              <img src={Benefit4} alt="" className="h-[100%]" />
             </div>
           </div>
         </div>

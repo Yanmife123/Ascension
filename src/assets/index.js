@@ -27,6 +27,12 @@ import Logo_8 from "./Logo_8.png";
 import Logo_9 from "./Logo_9.png";
 import Logo_0 from "./Logo_0.png";
 import Check from "./check.svg";
+import Testomo_img_5 from "./Testomo_img_5.png";
+import Testomo_img_2 from "./Testomo_img_2.png";
+import Testomo_img_1 from "./Testomo_img_1.jpg";
+import Testomo_img_3 from "./Testomo_img_3.png";
+import Testomo_img_4 from "./Testomo_img_4.png";
+import Testomo_img_6 from "./Testomo_img_6.jpg";
 
 export {
   Logo,
@@ -58,4 +64,10 @@ export {
   Logo_8,
   Logo_9,
   Check,
+  Testomo_img_5,
+  Testomo_img_1,
+  Testomo_img_2,
+  Testomo_img_3,
+  Testomo_img_4,
+  Testomo_img_6,
 };

@@ -86,8 +86,8 @@ const Pricing = () => {
               </div>
               <hr className="border-blurWhiteFourth" />
               <div className="flex flex-col gap-[12px]">
-                {plan.benefit.map((benefit) => (
-                  <div className="flex items-center gap-[10px]">
+                {plan.benefit.map((benefit, index) => (
+                  <div className="flex items-center gap-[10px]" key={index}>
                     <img src={Check} alt="" className="h-[16px] w-[16px]" />
                     <div className="text-white text-[14px] leading-[1.4em] font-san">
                       {benefit}

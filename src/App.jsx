@@ -9,6 +9,9 @@ import {
   Feature,
   Pricing,
   Testomonail,
+  Faq,
+  Final,
+  Footer,
 } from "./component";
 
 const App = () => {
@@ -30,8 +33,11 @@ const App = () => {
           <Feature />
           <Pricing />
           <Testomonail />
+          <Faq />
+          <Final />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

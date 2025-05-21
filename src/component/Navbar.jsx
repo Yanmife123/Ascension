@@ -11,7 +11,11 @@ const Navbar = () => {
       <nav
         className={`flex items-center justify-between text-white w-full md:h-[60px] h-[50px] `}
       >
-        <img src={Logo} alt="Logo" className="z-2" />
+        <div>
+          <a href="#hero">
+            <img src={Logo} alt="Logo" className="z-2" />
+          </a>
+        </div>
         <ul className="list-none  gap-6  lg:flex hidden">
           {data.Navbar_Data.map((link) => (
             <li key={link.id}>

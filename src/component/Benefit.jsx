@@ -23,7 +23,7 @@ const Benefit = () => {
         <div className="flex lg:flex-row flex-col gap-4 w-[80%]">
           <div className="flex py-5 px-3 bg-blurWhite flex-col gap-5 rounded-[5px]">
             <div className="flex justify-center">
-              <img src={Benefit1} alt="Benefit" srcset="" className="h-[95%]" />
+              <img src={Benefit1} alt="Benefit" className="h-[95%]" />
             </div>
             <div className="flex flex-col gap-[9px]">
               <h4
@@ -42,7 +42,7 @@ const Benefit = () => {
           </div>
           <div className="flex py-5 px-3 bg-blurWhite flex-col gap-5 rounded-[5px]">
             <div className="flex justify-center">
-              <img src={Benefit2} alt="Benefit" srcset="" className="h-[95%]" />
+              <img src={Benefit2} alt="Benefit" className="h-[95%]" />
             </div>
             <div className="flex flex-col gap-[9px]">
               <h4
@@ -62,7 +62,7 @@ const Benefit = () => {
         <div className="flex lg:flex-row flex-col gap-4 w-[80%]">
           <div className="flex py-5 px-3 bg-blurWhite flex-col gap-9 rounded-[5px] justify-center">
             <div className="flex justify-center items-center">
-              <img src={Benefit3} alt="Benefit" srcset="" className="h-[95%]" />
+              <img src={Benefit3} alt="Benefit" className="h-[95%]" />
             </div>
             <div className="flex flex-col gap-[9px]">
               <h4
@@ -80,7 +80,7 @@ const Benefit = () => {
           </div>
           <div className="flex py-5 px-3 bg-blurWhite flex-col gap-5 rounded-[5px]">
             <div className="flex justify-center">
-              <img src={Benefit4} alt="Benefit" srcset="" className="h-[90%]" />
+              <img src={Benefit4} alt="Benefit" className="h-[90%]" />
             </div>
             <div className="flex flex-col gap-[9px]">
               <h4

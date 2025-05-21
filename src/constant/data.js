@@ -18,7 +18,14 @@ import {
   Logo_9,
   magnifying,
   Square_four,
+  Testomo_img_1,
+  Testomo_img_2,
+  Testomo_img_3,
+  Testomo_img_4,
+  Testomo_img_5,
+  Testomo_img_6,
 } from "../assets";
+import { Testomonail } from "../component";
 
 const Navbar_Data = [
   {
@@ -90,7 +97,6 @@ const Company_Logos = [
     src: Logo_0,
   },
 ];
-
 const How_its_works = [
   {
     id: 1,
@@ -214,6 +220,79 @@ const Payment_Plans = [
   },
 ];
 
+const Testomonials = [
+  {
+    id: 1,
+    img: Testomo_img_1,
+    text: '"Adorn took our brand to new heights with their innovative designs and strategic approach. Their teams creativity and attention to detail truly set them apart."',
+    name: "Matthew Love",
+    profession: "Co-founder of Monday",
+  },
+  {
+    id: 2,
+    img: Testomo_img_2,
+    text: '"Ascend’s custom reporting tools are a game changer. I can easily create reports to track performance and optimize strategies."',
+    name: "Lily Kim",
+    profession: "Head of Operations at Green Roots",
+  },
+  {
+    id: 3,
+    img: Testomo_img_3,
+    text: '"This platform provides unmatched insights into customer behavior. We’ve been able to make smarter decisions and boost sales effortlessly."',
+    name: "Elena Morales",
+    profession: "Owner of Simply Chic",
+  },
+  {
+    id: 4,
+    img: Testomo_img_4,
+    text: '"Managing multiple sales channels used to be overwhelming, but with Ascend, its all seamless. We never miss a beat."',
+    name: "David Nguyen",
+    profession: "Founder of Urban Outfitters",
+  },
+  {
+    id: 5,
+    img: Testomo_img_5,
+    text: '"Ascend’s custom reporting tools are a game changer. I can easily create reports to track performance and optimize strategies."',
+    name: "Lily Kim",
+    profession: "Head of Operations at Green Roots",
+  },
+  {
+    id: 6,
+    img: Testomo_img_6,
+    text: "'Adorn took our brand to new heights with their innovative designs and strategic approach. Their team's creativity and attention to detail truly set them apart.'",
+    name: "Yanmife Adegbola",
+    profession: "Full Stack Dev at techy vibration",
+  },
+];
+
+const questions = [
+  {
+    id: 1,
+    heading: "What makes Ascension different from other e-commerce tools?",
+    text: "Ascension stands out with its intuitive design, powerful AI-driven features, and seamless integration of sales, marketing, and analytics tools in one platform. It's designed to save you time, automate routine tasks, and give you the data insights you need to grow your business.",
+  },
+  {
+    id: 2,
+    heading: "How does Ascensionhelp increase sales?",
+    text: " Ascension boosts sales by automating marketing efforts, providing real-time analytics, and enabling personalized customer experiences. You can easily identify trends, optimize inventory, and create targeted campaigns that drive engagement and conversions.",
+  },
+  {
+    id: 3,
+    heading: "Is Ascension suitable for small businesses?",
+    text: "Absolutely. Ascension is designed to be user-friendly and scalable, making it an excellent choice for small businesses that want to streamline their operations and grow efficiently without a steep learning curve.",
+  },
+  {
+    id: 4,
+    heading: "What kind of support does Ascension offer?",
+    text: "Ascension provides 24/7 customer support, a knowledge base, and live chat assistance to help you with any issues or questions you may have. We’re here to ensure your experience is smooth and successful.",
+  },
+  {
+    id: 5,
+    heading: "How does Ascension ensure data security for my business?",
+    text: "Ascension prioritizes data security with robust encryption protocols, regular audits, and compliance with industry standards to keep your information safe.",
+  },
+];
+
 export default {
   Navbar_Data,
   Company_Logos,
@@ -221,4 +300,6 @@ export default {
   Benefit_text,
   Feature_Data,
   Payment_Plans,
+  Testomonials,
+  questions,
 };
