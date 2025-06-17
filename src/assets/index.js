@@ -14,7 +14,7 @@ import Chart_bar from "./chart-bar.svg";
 import Chart_lne from "./chart-line.svg";
 import magnifying from "./file-magnifying-glass.svg";
 import Square_four from "./squares-four.svg";
-import Background_Gradient from "./nuNdPmlcL83VoB00bmEt8PSo.png";
+import Background_Gradient from "./hero_background1.png";
 import Background_Gradient2 from "./Background_Gradient2.png";
 import Logo_1 from "./Logo_1.png";
 import Logo_2 from "./Logo_2.png";

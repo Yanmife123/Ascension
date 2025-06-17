@@ -2,13 +2,21 @@ import { useState } from "react";
 
 import data from "../constant/data";
 import { Logo } from "../assets";
+import { motion } from "motion/react";
 
 const Navbar = () => {
   const [menuClicked, setMenuClicked] = useState(false);
 
   return (
     <div className="w-full boxWidth ">
-      <nav
+      <motion.nav
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.7,
+          ease: "easeIn",
+          duration: 0.5,
+        }}
         className={`flex items-center justify-between text-white w-full md:h-[60px] h-[50px] `}
       >
         <div>
@@ -57,7 +65,7 @@ const Navbar = () => {
             }`}
           ></div>
         </div>
-      </nav>
+      </motion.nav>
       <nav
         className={` mt-10  lg:hidden block navPhone ${
           menuClicked ? "block" : "hidden"
