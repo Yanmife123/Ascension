@@ -1,8 +1,19 @@
 import { Background_Gradient, Benefit4, Benefit5, Check } from "../assets";
 import data from "../constant/data";
 import GetStarted from "./GetStarted";
+import { motion } from "motion/react";
 
 const Benefit_secound = () => {
+  const varientDislay = {
+    hidden: {
+      opacity: 0,
+      y: 50,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+    },
+  };
   return (
     <section className="paddingY flex justify-center ">
       <div className="lg:w-[80%] w-full ">
@@ -35,7 +46,20 @@ const Benefit_secound = () => {
             <div className="absolute left-0 top-0 h-full w-full bg-blurWhite z-2 rounded-[5px]"></div>
             <div className="absolute top-0 left-0 h-full w-full transparent_gradient z-3"></div>
             <div className="h-[88%] z-[3]">
-              <img src={Benefit5} alt="" className="h-[100%]" />
+              <motion.img
+                initial={"hidden"}
+                variants={varientDislay}
+                whileInView={"show"}
+                transition={{
+                  delay: 0.4,
+                  duration: 0.8,
+                  ease: "easeIn",
+                }}
+                viewport={{ once: true }}
+                src={Benefit5}
+                alt=""
+                className="h-[100%]"
+              />
             </div>
           </div>
         </div>
@@ -78,7 +102,20 @@ const Benefit_secound = () => {
             <div className="absolute left-0 top-0 h-full w-full bg-blurWhite z-2 rounded-[5px]"></div>
             <div className="absolute top-0 left-0 h-full w-full transparent_gradient z-3 "></div>
             <div className="h-[88%] z-[4] relative">
-              <img src={Benefit4} alt="" className="h-[100%]" />
+              <motion.img
+                initial={"hidden"}
+                variants={varientDislay}
+                whileInView={"show"}
+                transition={{
+                  delay: 0.4,
+                  duration: 0.8,
+                  ease: "easeIn",
+                }}
+                viewport={{ once: true }}
+                src={Benefit4}
+                alt=""
+                className="h-[100%]"
+              />
             </div>
           </div>
         </div>
