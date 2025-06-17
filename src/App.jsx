@@ -32,7 +32,7 @@ const App = () => {
         <Navbar />
       </header>
 
-      <div className="flex__center try mt-[80px]">
+      <div className="flex__center paddingX try mt-[80px]">
         <div className="boxWidth">
           <Hero />
           <Companies />
