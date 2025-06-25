@@ -1,6 +1,5 @@
 import data from "../constant/data";
 import Head from "./Head";
-import { Carousel } from "primereact/carousel";
 
 const Testomonial_componenet = ({ text, img, name, profession }) => {
   return (
