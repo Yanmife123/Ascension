@@ -89,7 +89,7 @@ const Hero = () => {
         </div>
 
         <div className="flex lg:mt-5 md:mt-3 mt-0 flex-col md:justify-center justify-normal items-center">
-          <div className="lg:h-[600px] md:h-[400px] h-[350px] md:w-[80%] w-full relative lg:mix-blend-screen lg:backdrop-blur-[10px]">
+          <div className="lg:h-[600px] md:h-[400px] h-auto md:w-[80%] w-full relative lg:mix-blend-screen lg:backdrop-blur-[10px]">
             <motion.img
               initial={{
                 opacity: 0,
@@ -108,9 +108,9 @@ const Hero = () => {
               }}
               src={Hero_image}
               alt="Hero image"
-              className="h-[inhert] w-full lg:object-contain object-contain relative z-1 brightness-200"
+              className="md:h-full h-[300px] w-full object-contain relative z-1 brightness-200"
             />
-            <div className="absolute h-[650px] w-full top-0 left-0  transparent_gradient z-2"></div>
+            <div className=" lg:block hidden absolute h-[650px] w-full top-0 left-0  transparent_gradient z-2"></div>
           </div>
         </div>
       </div>

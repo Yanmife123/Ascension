@@ -1,7 +1,7 @@
 import data from "../constant/data";
 const Companies = () => {
   return (
-    <section className="mt-8 py-3 flex justify-center">
+    <section className="md:mt-8 mt-5 py-0 flex justify-center">
       <div className="flex flex-col items-center gap-6 md:w-[60%] w-[90%]">
         <p className="text-sm leading-[1.2em] text-white font-sans ">
           Trusted by those companies:

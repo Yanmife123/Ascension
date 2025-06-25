@@ -69,7 +69,7 @@ const Navbar = () => {
       <nav
         className={` mt-10  lg:hidden block navPhone ${
           menuClicked ? "block" : "hidden"
-        } w-full h-[300px] bg-blurBlack  border-b-1 border-b-blurWhite pt-5  backdrop-blur-[10px]`}
+        } w-full h-[300px] pt-5`}
       >
         <ul className="flex flex-col gap-2 ">
           {data.Navbar_Data.map((link) => (
