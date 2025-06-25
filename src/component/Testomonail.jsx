@@ -10,12 +10,12 @@ const Testomonial_componenet = ({ text, img, name, profession }) => {
         </div>
         <div className="flex gap-3 items-center">
           <div>
-            <img
+            {/* <img
               src={img}
               alt=""
               className="h-[36px] w-[36px] rounded-full object-cover object-center"
               loading="lazy"
-            />
+            /> */}
           </div>
           <div className="flex flex-col gap-[3px]">
             <h3 className="text-white font-sans text-base leading-[1.4em] font-semibold">
