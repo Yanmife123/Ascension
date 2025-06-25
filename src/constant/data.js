@@ -18,12 +18,6 @@ import {
   Logo_9,
   magnifying,
   Square_four,
-  Testomo_img_1,
-  Testomo_img_2,
-  Testomo_img_3,
-  Testomo_img_4,
-  Testomo_img_5,
-  Testomo_img_6,
 } from "../assets";
 import { Testomonail } from "../component";
 
@@ -223,42 +217,42 @@ const Payment_Plans = [
 const Testomonials = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/duyhha3mz/image/upload/v1750884071/Testomo_img_1_nnjich.jpg",
+    img: "https://res.cloudinary.com/duyhha3mz/image/upload/f_auto,q_auto,w_100,h_100,c_fill/Testomo_img_1_nnjich.jpg",
     text: '"Adorn took our brand to new heights with their innovative designs and strategic approach. Their teams creativity and attention to detail truly set them apart."',
     name: "Matthew Love",
     profession: "Co-founder of Monday",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/duyhha3mz/image/upload/v1750883754/samples/woman-on-a-football-field.jpg",
+    img: "https://res.cloudinary.com/duyhha3mz/image/upload/f_auto,q_auto,w_100,h_100,c_fill/samples/woman-on-a-football-field.jpg",
     text: '"Ascend’s custom reporting tools are a game changer. I can easily create reports to track performance and optimize strategies."',
     name: "Lily Kim",
     profession: "Head of Operations at Green Roots",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/duyhha3mz/image/upload/v1750884130/Testomo_img_3_duyqs5.png",
+    img: "https://res.cloudinary.com/duyhha3mz/image/upload/f_auto,q_auto,w_100,h_100,c_fill/Testomo_img_3_duyqs5.png",
     text: '"This platform provides unmatched insights into customer behavior. We’ve been able to make smarter decisions and boost sales effortlessly."',
     name: "Elena Morales",
     profession: "Owner of Simply Chic",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/duyhha3mz/image/upload/v1750884171/Testomo_img_4_zno4bs.png",
+    img: "https://res.cloudinary.com/duyhha3mz/image/upload/f_auto,q_auto,w_100,h_100,c_fill/Testomo_img_4_zno4bs.png",
     text: '"Managing multiple sales channels used to be overwhelming, but with Ascend, its all seamless. We never miss a beat."',
     name: "David Nguyen",
     profession: "Founder of Urban Outfitters",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/duyhha3mz/image/upload/v1750884565/afro-american-woman-model-studio_azp0rl.jpg",
+    img: "https://res.cloudinary.com/duyhha3mz/image/upload/f_auto,q_auto,w_100,h_100,c_fill/afro-american-woman-model-studio_azp0rl.jpg",
     text: '"Ascend’s custom reporting tools are a game changer. I can easily create reports to track performance and optimize strategies."',
     name: "Lily Kim",
     profession: "Head of Operations at Green Roots",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/duyhha3mz/image/upload/v1750883991/Testomo_img_6_ebvyls.jpg",
+    img: "https://res.cloudinary.com/duyhha3mz/image/upload/f_auto,q_auto,w_100,h_100,c_fill/Testomo_img_6_ebvyls.jpg",
     text: "'Adorn took our brand to new heights with their innovative designs and strategic approach. Their team's creativity and attention to detail truly set them apart.'",
     name: "Yanmife Adegbola",
     profession: "Full Stack Dev at techy vibration",
