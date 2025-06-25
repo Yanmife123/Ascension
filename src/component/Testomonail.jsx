@@ -14,6 +14,7 @@ const Testomonial_componenet = ({ text, img, name, profession }) => {
               src={img}
               alt=""
               className="h-[36px] w-[36px] rounded-full object-cover object-center"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col gap-[3px]">
