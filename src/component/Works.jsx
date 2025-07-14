@@ -1,5 +1,17 @@
 import Head from "./Head";
 import data from "../constant/data";
+// import { showingcontainerVariant } from "../constant/motion";
+
+import { motion } from "motion/react";
+const showingcontainerVariant = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.5,
+    },
+  },
+};
 
 const Works = () => {
   return (
@@ -19,9 +31,19 @@ const Works = () => {
           " From automating tasks to offering real-time insights, Ascension takes the complexity out of running your business. Here’s how it works:"
         }
       />
-      <div className="flex flex-wrap justify-center gap-3  ">
-        {data.How_its_works.map((work) => (
-          <div
+      <motion.div
+        className="flex flex-wrap justify-center gap-3 text-white"
+        // variants={showingcontainerVariant}
+      >
+        {data.How_its_works.map((work, index) => (
+          <motion.div
+            // variants={showingcontainerVariant}
+            initial={{
+              opacity: 0,
+            }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.7, delay: index * 0.3 }}
+            viewport={{ once: true }}
             className="flex-1 min-w-[350px] max-w-[450px] bg-blurWhite py-9 px-7 rounded-[5px] flex flex-col gap-9 justify-center items-center h-[500px]"
             key={work.id}
           >
@@ -40,9 +62,9 @@ const Works = () => {
                 {work.paragraph}
               </p>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };

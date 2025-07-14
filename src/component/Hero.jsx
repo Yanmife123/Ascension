@@ -1,37 +1,80 @@
 import GetStarted from "./GetStarted";
 import { Hero_image, Background_Gradient } from "../assets";
 import { delay, easeIn, motion } from "motion/react";
+import { div } from "motion/react-client";
 
 const Hero = () => {
+  const defaultcontainerVariant = {
+    hidden: { opacity: 0, y: -20, scale: 1.2, filter: "blur(8px)" },
+    show: {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      filter: "blur(0)",
+      transition: {
+        duration: 0.9,
+      },
+    },
+  };
+  const TextStaggerAnimation = () => {
+    const texts = ["Clean and Modern Template", " for Elevating SaaS Products"];
+    return (
+      <div>
+        <motion.span
+          initial={"hidden"}
+          animate={"show"}
+          transition={{ staggerChildren: 0.2 }}
+          aria-hidden
+        >
+          {texts.map((text, index) => (
+            <span className="block" key={index}>
+              {text.split(" ").map((word, index) => (
+                <span className="inline-block" key={index}>
+                  <motion.span
+                    variants={defaultcontainerVariant}
+                    className="inline-block"
+                    key={index}
+                  >
+                    {word}
+                  </motion.span>
+                  <span className="inline-block">&nbsp;</span>
+                </span>
+              ))}
+            </span>
+          ))}
+        </motion.span>
+      </div>
+    );
+  };
+
   return (
     <section id="hero" className="paddingY z-2 bg-black opacity-[1]">
       <div className="flex justify-center py-3">
         <div className="w-80% flex flex-col gap-[24px]">
           <motion.h2
-            initial={"hidden"}
-            animate={"visible"}
-            variants={{
-              hidden: {
-                opacity: 0,
-                scale: 1,
-                y: -50,
-                filter: "blur(8px)",
-              },
-              visible: {
-                opacity: 1,
-                scale: 1,
-                y: 0,
-                filter: "blur(0px)",
-              },
-            }}
-            transition={{
-              duration: 1.2,
-              ease: "easeIn",
-            }}
+            // initial={"hidden"}
+            // animate={"visible"}
+            // variants={{
+            //   hidden: {
+            //     opacity: 0,
+            //     scale: 1,
+            //     y: -50,
+            //     filter: "blur(8px)",
+            //   },
+            //   visible: {
+            //     opacity: 1,
+            //     scale: 1,
+            //     y: 0,
+            //     filter: "blur(0px)",
+            //   },
+            // }}
+            // transition={{
+            //   duration: 1.2,
+            //   ease: "easeIn",
+            // }}
             className="font-satoshi md:text-[64px] text-[45px] leading-[1.2em] font-[500] text-white text-center mix-blend-difference tracking-tight "
           >
-            Clean and Modern Template <br className="md:block hidden" /> for
-            Elevating SaaS Products
+            <TextStaggerAnimation />
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
