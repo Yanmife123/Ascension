@@ -51,31 +51,9 @@ const Hero = () => {
     <section id="hero" className="paddingY z-2 bg-black opacity-[1]">
       <div className="flex justify-center py-3">
         <div className="w-80% flex flex-col gap-[24px]">
-          <motion.h2
-            // initial={"hidden"}
-            // animate={"visible"}
-            // variants={{
-            //   hidden: {
-            //     opacity: 0,
-            //     scale: 1,
-            //     y: -50,
-            //     filter: "blur(8px)",
-            //   },
-            //   visible: {
-            //     opacity: 1,
-            //     scale: 1,
-            //     y: 0,
-            //     filter: "blur(0px)",
-            //   },
-            // }}
-            // transition={{
-            //   duration: 1.2,
-            //   ease: "easeIn",
-            // }}
-            className="font-satoshi md:text-[64px] text-[45px] leading-[1.2em] font-[500] text-white text-center mix-blend-difference tracking-tight "
-          >
+          <h2 className="font-satoshi md:text-[64px] text-[45px] leading-[1.2em] font-[500] text-white text-center mix-blend-difference tracking-tight ">
             <TextStaggerAnimation />
-          </motion.h2>
+          </h2>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
